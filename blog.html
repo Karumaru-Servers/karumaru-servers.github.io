@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Karumaru-Servers | 開発ブログ</title>
+        <meta name="description" content="Karumaru-Servers公式ホームページ - 多言語サポート" />
+        <meta name="keywords" content="Discord Bot, Karumaru-Servers, 多言語,  サーバー管理" />
+        
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://karumaru-servers.github.io/" />
+        <meta property="og:title" content="Karumaru-Servers | 多機能Discord Bot" />
+        <meta property="og:description" content="サーバー運営を楽にする、地域対応多機能Discord Bot" />
+        <meta property="og:image" content="./images/robot.png" />
+        <meta property="og:site_name" content="Karumaru-Servers" />
+        <meta property="og:locale" content="ja_JP" />
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://karumaru-servers.github.io/">
+        <meta property="twitter:title" content="Karumaru-Servers | 多機能Discord Bot">
+        <meta property="twitter:description" content="サーバー運営を楽にする、地域対応多機能Discord Bot">
+        <meta property="twitter:image" content="./images/robot.png">
+
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="./images/robot.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/robot.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./images/robot.png">
+        <meta name="msapplication-TileImage" content="./images/robot.png" />
+        <meta name="msapplication-TileColor" content="#00FFFF" />
+        <meta name="theme-color" content="#121212">
+        
+        <!-- Canonical -->
+        <link rel="canonical" href="https://karumaru-servers.github.io/" />
+        
+        <!-- Preload critical resources -->
+        <link rel="preload" href="./index.css" as="style">
+        <link rel="preload" href="./geo-language-switcher.js" as="script">
+        
+        <!-- Styles -->
+        <link rel="stylesheet" href="./index.css" />
+        
+        <!-- Scripts -->
+        <script src="./geo-language-switcher.js" defer></script>
+        
+        <!-- JSON-LD Structured Data -->
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "Karumaru-Servers",
+          "description": "サーバー運営を楽にする、多機能なDiscord Bot",
+          "url": "https://karumaru-servers.github.io/",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://karumaru-servers.github.io/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        }
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <header class="main-header">
+                <div class="logo-area">
+                    <h1>Karumaru-Servers</h1>
+                    <p class="tagline">サーバー運営を楽にする、多機能なDiscord Bot</p>
+                </div>
+                <div class="language-area">
+                    <div class="language-controls">
+                        <select id="language-selector" aria-label="言語を選択">
+                            <option value="ja">🇯🇵 日本語</option>
+                            <option value="en">🇺🇸 English</option>
+                            <option value="pt">🇧🇷 Português</option>
+                            <option value="ru">🇷🇺 Русский</option>
+                            <option value="fr">🇫🇷 Français</option>
+                            <option value="zh">🇨🇳 中文(簡体)</option>
+                            <option value="zh-TW">🇹🇼 中文(繁体)</option>
+                            <option value="hi">🇮🇳 हिन्दी</option>
+                            <option value="es">🇪🇸 Español</option>
+                            <option value="ar">🇸🇦 العربية</option>
+                            <option value="zh-fake">🇯🇵 偽中国語</option>
+                        </select>
+                        <a href="./forms/signin.html" class="button language-signin-button">サインイン</a>
+                    </div>
+                </div>
+            </header>
+            
+            <nav aria-label="メインナビゲーション">
+                <ul>
+                    <li><a href="./index.html" class="button">ホーム</a></li>
+                    <li><a href="./trust.html" class="button">信頼ユーザ</a></li>
+                    <li><a href="./faq.html" class="button">FAQ</a></li>
+                    <li><a href="./servers.html" class="button">加盟サーバー</a></li>
+                    <li><a href="./stats.html" class="button">統計</a></li>
+                    <li><a href="./blog.html" class="button">開発ブログ</a></li>
+                </ul>
+            </nav>
+            <main>
+                <section class="blog" aria-label="開発ブログ">
+                    <h1 class="glowing-text">開発ブログ</h1>
+                    <p class="glowing-text">ここでは、Karumaru-Serversの最新情報や開発の進捗状況をお知らせします。</p>
+                    <div class="blog-post-header">
+                        <a href="./blog/test.html" class="contact-button">
+                            <h1>Karumaru-Servers リリース</h1>
+                            <p class="blog-post-meta">Karumaru-Serversをリリースしました！</p>
+                            <p class="blog-post-meta">投稿日: 2025年8月18日 | カテゴリ: 新リリース</p>
+                        </a>
+                    </div>
+                </section>
+            </main>
+            
+        <footer>
+            <div class="container">
+                <p>&copy; 2025 Karumaru-Servers. All rights reserved.</p>
+                <p>Powered by Advanced Geo-Language Detection System</p>
+            </div>
+        </footer>
